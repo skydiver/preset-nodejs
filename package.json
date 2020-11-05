@@ -1,0 +1,14 @@
+{
+  "name": "preset-nodejs",
+  "version": "1.0.0",
+  "description": "My highly opinionated preset for Node projects",
+  "license": "MIT",
+  "preset": "src/preset.js",
+  "scripts": {
+    "release": "standard-version --skip.changelog"
+  },
+  "devDependencies": {
+    "standard-version": "^8.0.2",
+    "use-preset": "^0"
+  }
+}
